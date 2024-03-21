@@ -89,14 +89,14 @@
                     <div class="card-body ">
                         <h5 class="card-title">@<%= review.author.username %></h5>
                         <p class="card-text"><%=review.comment%></p>
-                        <!-- <p class="card-text"><%=review.rating%> stars</p> -->
                         <p class="starability-result" data-rating="<%=review.rating%>">
                             Rated: 3 stars
                         </p>
-                        <!-- <a href="/listing/<%= listing._id %>/reviews/<%=review._id%>" class="card-link">Delete</a> -->
+                        <% if(currUser && listing.owner._id.equals(currUser.id)){ %>
                         <form action="/listings/<%= listing._id %>/reviews/<%=review._id%>?_method=DELETE" method="post">
                             <button class="btn btn-dark btn-sm mb-3">Delete</button>
                         </form>
+                        <% } %>
                     </div>
                 </div>
             <% } %>
