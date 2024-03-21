@@ -92,7 +92,7 @@
                         <p class="starability-result" data-rating="<%=review.rating%>">
                             Rated: 3 stars
                         </p>
-                        <% if(currUser && listing.owner._id.equals(currUser.id)){ %>
+                        <% if(currUser && review.author._id.equals(currUser.id)){ %>
                         <form action="/listings/<%= listing._id %>/reviews/<%=review._id%>?_method=DELETE" method="post">
                             <button class="btn btn-dark btn-sm mb-3">Delete</button>
                         </form>
