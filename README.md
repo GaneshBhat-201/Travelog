@@ -3,12 +3,33 @@
 Technologies: HTML, CSS, JavaScript, Bootstrap, MongoDB, Node.js, Express.js, Cloud
 It’s an End-to-End destination guide where we can search for hotels, rooms and PG’s which are available and their locations and contact details will be provided for bookings, and there is also a separate rating and review section. It also has features to add, delete and edit Listings after authentication.
 
-This project implements:
+This project implements:<br/>
+   - MVC framework
+- Authentication and Authorization
+- CRUD operations
+- Error Handling both in FrontEnd and BackEnd
+- Map API
 
-	-MVC framework
-	-Authentication and Authorization
-	-CRUD operations
-	-Map API
- 
+### ENV File Setup:
+```
+ATLASDB_URL=...
+CLOUD_API_KEY=...
+CLOUD_API_SECRET=...
+CLOUD_NAME=...
+MAP_TOKEN=...
+NODE_VERSION=...
+SECRET=...
+```
+
+#### Install Node Modules:
+```
+ npm install
+```
+#### Run App:
+```
+node app.js
+```
+
+
 Link: https://travelog-gaao.onrender.com/listings
 
