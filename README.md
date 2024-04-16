@@ -2,6 +2,9 @@
 
 Technologies: HTML, CSS, JavaScript, Bootstrap, MongoDB, Node.js, Express.js, Cloud
 It’s an End-to-End destination guide where we can search for hotels, rooms and PG’s which are available and their locations and contact details will be provided for bookings, and there is also a separate rating and review section. It also has features to add, delete and edit Listings after authentication.
+<br/>
+
+<img src="https://res.cloudinary.com/dc2etmwnk/image/upload/v1713301294/Screenshot_433_vgmn3f.png" height="500"/>
 
 This project implements:<br/>
    - MVC framework
